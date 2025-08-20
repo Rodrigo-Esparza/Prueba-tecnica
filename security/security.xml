@@ -1,0 +1,6 @@
+<odoo>
+    <record id="group_purchase_categorizer" model="res.groups">
+        <field name="name">Categorizar compra</field>
+        <field name="category_id" ref="base.module_category_purchases"/>
+    </record>
+</odoo>

@@ -1,0 +1,8 @@
+<odoo>
+    <record id="rule_purchase_order_by_user_categories" model="ir.rule">
+        <field name="name">mis órdenes de compra por categoría</field>
+        <field name="model_id" ref="purchase.model_purchase_order"/>
+        <field name="global" eval="True"/>
+        <field name="domain_force">[("category_id", "in", user.purchase_category_ids.ids)]</field>
+    </record>
+</odoo>

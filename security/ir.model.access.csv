@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_purchase_category_user,purchase.category.user,model_purchase_category,base.group_user,1,0,0,0
+access_purchase_category_categorizer,purchase.category.categorizer,model_purchase_category,purchase_category_access.group_purchase_categorizer,1,1,1,1
